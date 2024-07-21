@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("./index.css");
+.App {
+  font-family: "Kanit", sans-serif;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  min-height: 100vh;
+}
+li::marker,
+h1 {
+  color: #fda365;
+}
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  border: none;
+}
+.search-button {
+  border: none;
+  padding: 10px;
+  background-color: purple;
+  color: white;
+}
+.recipies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 2%;
+  height: auto;
+}
+.emoji {
+  height: 2rem;
+}
+.recipeImg {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.totalRecipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+}
